@@ -1,0 +1,49 @@
+body{
+    background-color: #c85dde;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+#show_sketch,#timer{
+    float: right;
+}
+#score{
+    float: left;
+    padding-left: 100px;
+}
+#timer{
+    padding-right: 100px;
+}
+#toBeDrawn{
+    background-color:pink;
+}
+h1{
+    background-color: pink;
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 20px white;}
+    to{box-shadow: 5px 5px 20px white;}
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    font-size: medium;
+    line-height: 3;
+}
